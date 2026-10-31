@@ -1,0 +1,9 @@
+# 原生APK编译闸 · 插件化（主人 2026-10-29 发来的 SKILL.md·13KB 血账）
+# 本机无 JDK/SDK/Gradle/keystore → 编译动作不铸（不装活），只铸体检+鉴路+发版自查。
+- insert:
+    - id: ql-apk
+      name: 'dsh-apk-gate'
+      config:
+        enabled: true
+        order: 170
+        tool: true
